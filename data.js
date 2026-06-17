@@ -31,7 +31,7 @@ const PORTFOLIO = {
       email:    "danilos.santos@outlook.com",         // ⚠️ TROCAR
       github:   "https://github.com/DaniloRodriguesSantos",   // ⚠️ TROCAR (ou "")
       linkedin: "https://www.linkedin.com/in/danilorodriguesdossantos/", // ⚠️ TROCAR (ou "")
-      resume:   ""                                // CV em PDF, ex.: "cv.pdf" (opcional)
+      resume:   "DaniloRodrigues_GameProgrammer.pdf"                                // CV em PDF, ex.: "cv.pdf" (opcional)
     },
 
     about: [
