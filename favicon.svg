@@ -1,0 +1,11 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo">
+  <defs>
+    <linearGradient id="slashGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff5a2c"/>
+      <stop offset="1" stop-color="#d8410f"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="13" fill="#141417" stroke="#26262b" stroke-width="1.6"/>
+  <polygon points="15.5,50 24.5,50 34.5,14 25.5,14" fill="url(#slashGrad)" stroke="url(#slashGrad)" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="29.5,50 38.5,50 48.5,14 39.5,14" fill="url(#slashGrad)" stroke="url(#slashGrad)" stroke-width="2" stroke-linejoin="round"/>
+</svg>

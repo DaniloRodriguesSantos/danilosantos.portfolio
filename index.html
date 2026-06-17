@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" class="js">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Danilo · Game Programmer · Portfolio</title>
+<meta name="description" content="Game programmer — gameplay, systems, multiplayer networking and console porting. Shipped commercial titles across PC, console and mobile in Unreal Engine." />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="alternate icon" href="favicon.ico" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<meta name="theme-color" content="#0c0c0e" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+
+<nav>
+  <div class="wrap">
+    <a class="brand" id="brand" href="#top">// portfolio</a>
+    <div class="navlinks">
+      <a href="#fulldev">development</a>
+      <a href="#porting">porting</a>
+      <a href="#about">about</a>
+      <a href="#contact">contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="tag-top reveal"><span class="dot"></span><span id="availability"></span></div>
+    <h1 class="reveal" id="heroName"></h1>
+    <div class="role reveal" id="heroRole"></div>
+    <p class="pitch reveal" id="heroPitch"></p>
+    <div class="cta reveal" id="heroCta"></div>
+    <div class="stats reveal" id="heroStats"></div>
+  </div>
+</header>
+
+<section class="block" id="fulldev">
+  <div class="wrap">
+    <div class="sec-head reveal" id="fulldev-head"></div>
+    <div class="cards" id="fulldev-list"></div>
+  </div>
+</section>
+
+<section class="block" id="porting">
+  <div class="wrap">
+    <div class="sec-head reveal" id="porting-head"></div>
+    <div class="cards" id="porting-list"></div>
+  </div>
+</section>
+
+<section class="block" id="about">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="label">03 / About</span>
+      <h2>About</h2>
+    </div>
+    <div class="about">
+      <div class="reveal" id="aboutText"></div>
+      <div class="factbox reveal" id="factBox"></div>
+    </div>
+  </div>
+</section>
+
+<div class="contact" id="contact">
+  <div class="wrap reveal">
+    <span class="label">Get in touch</span>
+    <h2 id="contactLine"></h2>
+    <p class="sub">Open to opportunities at studios — remote or relocation. I usually reply quickly.</p>
+    <div class="cta" style="justify-content:center" id="contactCta"></div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span id="footL"></span>
+    <span id="footR"></span>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script>renderHome();</script>
+</body>
+</html>
